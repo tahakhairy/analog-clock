@@ -1,33 +1,37 @@
-# analog-clock
+# Analog Clock App
 
-This template should help get you started developing with Vue 3 in Vite.
+This project is a simple **analog clock** built with **Vue 3** and **TypeScript**. It visually represents the current time using hour, minute, and second hands, along with hour numbers and minute ticks.
 
-## Recommended IDE Setup
+![App Imgae]('/src/assets/images/app_image.png' "App Image")
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+---
 
-## Type Support for `.vue` Imports in TS
+## Technologies Used
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+- **Vue 3**: Framework for building the UI.
+- **TypeScript**: For type-safe development.
+- **Tailwind CSS**: For styling and layout.
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
+---
 
 ## Project Setup
 
-```sh
-npm install
-```
+### Prerequisites
+Ensure you have the following installed:
+- Node.js (>= 20.x)
+- npm (>= 6.x)
 
-### Compile and Hot-Reload for Development
+### Installation
 
-```sh
-npm run dev
-```
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-### Type-Check, Compile and Minify for Production
+2. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-```sh
-npm run build
-```
+3. Open your browser and navigate to `http://localhost:3173` to view the clock.
+
