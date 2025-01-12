@@ -2,7 +2,7 @@
 
 This project is a simple **analog clock** built with **Vue 3** and **TypeScript**. It visually represents the current time using hour, minute, and second hands, along with hour numbers and minute ticks.
 
-![App Imgae]('https://github.com/tahakhairy/analog-clock/blob/main/src/assets/images/app_image.png?raw=true' 'App Image')
+![App Imgae](https://github.com/tahakhairy/analog-clock/blob/main/src/assets/images/app_image.png?raw=true 'App Image')
 
 ---
 
