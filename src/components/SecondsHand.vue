@@ -1,9 +1,9 @@
 <template>
   <div
-    class="w-8 h-8 bg-black rounded-full absolute flex justify-center items-center z-10"
+    class="w-4 h-4 bg-black rounded-full absolute flex justify-center items-center z-10"
     :style="{ transform: `rotate(${180 + secondsHandPosition}deg)` }"
   >
-    <div class="clock-hand h-[120px] bg-red-600"></div>
+    <div class="clock-hand h-[70px] md:h-[120px] bg-red-600"></div>
   </div>
 </template>
 

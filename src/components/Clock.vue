@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-[400px] h-[400px] bg-blue-200 rounded-full flex justify-center items-center relative border-[4px] ring-8 ring-blue-900 border-black"
+    class="w-[200px] h-[200px] md:w-[400px] md:h-[400px] bg-blue-200 rounded-full flex justify-center items-center relative border-[4px] ring-8 ring-blue-900 border-black"
   >
     <SecondsHand :time />
     <MinutesHand :time />

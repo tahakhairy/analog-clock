@@ -1,5 +1,9 @@
 <script setup lang="ts">
+import { computed } from 'vue'
+
 const hourNumbers = Array.from({ length: 12 }, (_, i) => i + 1)
+
+const screenWidth = computed(() => window.screen.width)
 </script>
 
 <template>
@@ -8,12 +12,14 @@ const hourNumbers = Array.from({ length: 12 }, (_, i) => i + 1)
     :key="hour"
     class="absolute"
     :style="{
-      transform: `rotate(${hour * 30}deg) translate(0, -165px)`
+      transform: `rotate(${hour * 30}deg) translateY(${
+        screenWidth < 768 ? '-75' : '-165'
+      }px)`
     }"
   >
     <div
       :style="{ transform: `rotate(${-hour * 30}deg)` }"
-      class="font-bold text-[42px]"
+      class="font-bold text-lg md:text-[42px]"
     >
       {{ hour }}
     </div>

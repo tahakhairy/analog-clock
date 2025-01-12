@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-8 h-0 bg-red-600 rounded-full absolute"
+    class="w-4 md:w-8 h-0 bg-red-600 rounded-full absolute"
     :style="{ transform: `rotate(${180 + minutesHandPosition}deg)` }"
   >
     <img
